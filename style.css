@@ -90,6 +90,7 @@ html,body{
     height: 7vh;
     width: 100vw;
     background-color: white;
+    display: flex;
 }
 .choixSport{
     display: flex;
@@ -97,10 +98,16 @@ html,body{
 .textbleu{
     color: #007DCA;
 }
+
 .iconChoixBleu{
+    background-image: url("iconChoix/iconChoixBleu.png");
+}
+.iconChoixBlanc{
+    background-image: url("iconChoix/iconChoixBlanc.png");
+}
+.iconChoixBleu,.iconChoixBlanc{
     height: 20px;
     width: 20px;
-    background-image: url("iconChoix/iconChoixBleu.png");
     background-size: cover;
     background-position: center;
 }
