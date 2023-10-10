@@ -7,10 +7,13 @@ html,body{
 .navbar{
     height: 10vh;
     width: 100vw;
-    background-color: grey;
+    background-color:white;
     display: flex;
     justify-content: space-between;
 
+}
+.navbarDroite{
+    display: flex;
 }
 .logoDecat{
     height: 70%;
@@ -91,6 +94,8 @@ html,body{
     width: 100vw;
     background-color: white;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .choixSport{
     display: flex;
@@ -110,4 +115,63 @@ html,body{
     width: 20px;
     background-size: cover;
     background-position: center;
+}
+
+.divFinSection{
+    width: 100vw;
+    border: black 1px solid;
+}
+
+.container{
+    width: 100vw;
+    padding: 0 0 0 0;
+}
+.presentation1{
+
+    height: 60vh;
+    width: 100%;
+    background-image: url("imagesPresentation/img1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: #FFE928 1px solid;
+    border-radius: 2%;
+}
+
+.presentation2{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.petitePresentation1,.petitePresentation2,.petitePresentation3,.petitePresentation4,.petitePresentation5,.petitePresentation6{
+    height: 100%;
+    width: 10vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.petitePresentation1{
+    background-image: url("presentation2/img1.png");
+}
+.petitePresentation2{
+    background-image: url("presentation2/img2.png");
+}
+.petitePresentation3{
+    background-image: url("presentation2/img3.png");
+}
+.petitePresentation4{
+    background-image: url("presentation2/img4.png");
+}
+.petitePresentation5{
+    background-image: url("presentation2/img5.png");
+}
+.petitePresentation6{
+    background-image: url("presentation2/img6.png");
+}
+
+
+.presentation3{
+
 }
