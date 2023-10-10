@@ -1,0 +1,106 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.navbar{
+    height: 10vh;
+    width: 100vw;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logoDecat{
+    height: 70%;
+    width: 200px;
+    background-image: url("logoDecat.png");
+    background-size: cover;
+    background-position: center;
+}
+.monPanier{
+    height: 100%;
+    width:8vw;
+    background-color: #FFE928;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+ }
+ .iconeMonpanier{
+     height: 50px;
+     width: 50px;
+     background-image: url("iconNavbar/iconMonpanier.png");
+     background-position: center;
+     background-size: cover;
+ }
+.monCompte {
+    height: 100%;
+    width: 8vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.iconeMoncompte{
+    height: 40px;
+    width: 40px;
+    background-image: url("iconNavbar/iconCompte.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.monMagasin {
+    height: 100%;
+    width: 8vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.iconeMonmagasin {
+    height: 40px;
+    width: 40px;
+    background-image: url("iconNavbar/iconMonmagasin.png");
+    background-position: center;
+    background-size: cover;
+}
+.uneQuestion {
+    height: 100%;
+    width: 8vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.iconeUneQuestion {
+    height: 40px;
+    width: 40px;
+    background-image: url("iconNavbar/iconUneQuestion.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.navBarChoix{
+    height: 7vh;
+    width: 100vw;
+    background-color: white;
+}
+.choixSport{
+    display: flex;
+}
+.textbleu{
+    color: #007DCA;
+}
+.iconChoixBleu{
+    height: 20px;
+    width: 20px;
+    background-image: url("iconChoix/iconChoixBleu.png");
+    background-size: cover;
+    background-position: center;
+}
