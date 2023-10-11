@@ -2,16 +2,24 @@ html,body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    font-family: Roboto Condensed,Arial Narrow,sans-serif;
 }
 .green{
     color: #77e851;
 }
+.allBody{
+    width: 100vw;
+}
+.titreMargin{
+    margin-left: 80px;
+}
 .navbar{
     height: 10vh;
-    width: 100vw;
     background-color:white;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 0 10px;
 
 }
 .navbarDroite{
@@ -23,6 +31,19 @@ html,body{
     background-image: url("logoDecat.png");
     background-size: cover;
     background-position: center;
+}
+.barreRecherche{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divRecherche{
+    width: 600px;
+}
+.formRecherche{
+    height: 37px ;
+    width: 100%;
+
 }
 .monPanier{
     height: 100%;
@@ -93,14 +114,16 @@ html,body{
 
 .navBarChoix{
     height: 7vh;
-    width: 100vw;
     background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 80px 0 80px;
 }
 .choixSport{
     display: flex;
+    border: none;
+    background-color: white;
 }
 .textbleu{
     color: #007DCA;
@@ -117,11 +140,12 @@ html,body{
     width: 20px;
     background-size: cover;
     background-position: center;
+    padding-left: 10px;
 }
 
 .divFinSection{
     width: 100vw;
-    border: black 1px solid;
+    border: rgba(178, 170, 170, 0.41) 1px solid;
 }
 
 .container{
@@ -131,28 +155,29 @@ html,body{
 .presentation1{
 
     height: 65vh;
-    width: 100%;
     background-image: url("imagesPresentation/img1.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     border: #FFE928 1px solid;
-    border-radius: 2%;
+    border-radius: 5px;
+    margin: 20px 80px 20px 80px;
 }
 
 .presentation2{
     height: 10vh;
-    width: 100vw;
     display: flex;
     justify-content: space-between;
+    margin: 60px 80px 60px 80px;
 }
 
 .petitePresentation1,.petitePresentation2,.petitePresentation3,.petitePresentation4,.petitePresentation5,.petitePresentation6{
     height: 100%;
-    width: 10vw;
+    width: 12vw;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 5px;
 }
 .petitePresentation1{
     background-image: url("presentation2/img1.png");
@@ -176,16 +201,19 @@ html,body{
 
 .presentation3{
     height: 45vh;
-    width: 100vw;
     display: flex;
+    justify-content: space-between;
+    margin: 60px 80px 60px 80px;
 }
 
 .pres3-img1,.pres3-img2,.pres3-img3,.pres3-img4,.pres3-img5,.pres3-img6,.pres3-img7,.pres3-img8,.pres3-img9,.pres3-img10,.pres3-img11,.pres3-img12{
     height: 35vh;
-    width: 15vw;
+    width: 13vw;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 .pres3-img1{
@@ -227,19 +255,23 @@ html,body{
 
 .presentation4{
     height: 90vh;
-    width: 100vw;
     display: flex;
+    margin: 20px 80px 80px 80px;
+    justify-content: space-between;
+
 }
 .pres4-div1,.pres4-div2{
     height: 100%;
-    width: 50%;
+    width: 48%;
 }
 .pres4-div2{
     display: flex;
     flex-direction: column;
 }
 .pres4-div2-col{
+    height: 50%;
     display: flex;
+    justify-content: space-between;
 }
 .pres4-img1{
     height: 100%;
@@ -248,12 +280,17 @@ html,body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 5px;
 }
 .pres4-div-rect{
-    height: 50%;
-    width: 15vw;
-    background-color: #FFE928;
-    border: grey 1px solid;
+    height: 98%;
+    width: 30%;
+    border: rgba(128, 128, 128, 0.35) 1px solid;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 .pres4-img2,.pres4-img3,.pres4-img4,.pres4-img5,.pres4-img6,.pres4-img7{
     height: 20vh;
@@ -283,23 +320,28 @@ html,body{
 .pres4-prix{
     width: fit-content;
     background-color: #FFE928;
+    padding: 3px 10px 3px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 .presentation5{
     height: 45vh;
-    width: 100vw;
     display: flex;
+    justify-content: space-between;
+    margin: 0 80px 50px 80px;
+
 }
 .pres5-img1,.pres5-img4{
     height: 100%;
-    width: 45%;
+    width: 50%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .pres5-img2,.pres5-img3,.pres5-img5,.pres5-img6{
     height: 100%;
-    width: 20%;
+    width: 23%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -324,9 +366,10 @@ html,body{
 }
 
 .presentation6{
-    height: 50vh;
-    width: 100vw;
+    height: 40vh;
     display: flex;
+    justify-content: space-between;
+    margin: 40px 80px 60px 80px;
 }
 .pres6-img1,.pres6-img2,.pres6-img3,.pres6-img4,.pres6-img5{
     height: 100%;
@@ -334,6 +377,7 @@ html,body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 5px;
 }
 .pres6-img1{
     background-image: url("presentation6/img1.png");
@@ -353,12 +397,14 @@ html,body{
 
 .presentation7{
     height: 85vh;
-    width: 100vw;
     display: flex;
+    justify-content: space-between;
+    margin: 10px 80px 70px 80px;
+
 }
 .pres7-div{
     height: 100%;
-    width: 45%;
+    width: 49%;
 }
 .pres7-img1,.pres7-img2{
     height: 65vh;
@@ -366,6 +412,7 @@ html,body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 5px;
 }
 .pres7-img1{
     background-image:url("presentation7/img1.png");
@@ -376,24 +423,28 @@ html,body{
 
 .presentation8{
     height: 100vh;
-    width: 100vw;
     display: flex;
     flex-direction: column;
+    margin: 10px 80px 10px 80px;
 }
 .pres8-div1{
-    height: 15vh;
-    width: 100%;
+    height: 14vh;
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 20vh;
 }
 .pres8-div1-rect1{
     height: 100%;
     width: 20vw;
-    background-color: rgba(182, 172, 172, 0.6);
+    background-color: #F7F8F9;
     display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px;
 }
 .pres8-img1,.pres8-img2,.pres8-img3,.pres8-img4{
-    height: 90px;
-    width: 90px;
+    height: 80px;
+    width: 80px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -413,22 +464,41 @@ html,body{
 .pres8-flex{
     display: flex;
     flex-direction: column;
+    margin-left: 10px;
+}
+.pres8-div4{
+    height: 13vh;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 25vh;
 }
 .rappels{
-    height: 7vh;
-    width: 15vw;
+    height: 100%;
+    width: 17vw;
     background-color: #007DCA;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
 }
 .pres8-div2{
-    height: 20vh;
-    width: 100vw;
+    height: 25vh;
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 10vh;
 }
 .pres8-div2-rect{
     height: 100%;
-    width: 40vw;
-    background-color: rgba(182, 172, 172, 0.6);
+    width: 49%;
+    background-color: #F7F8F9;
     display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
 }
 .pres8-img5{
     height: 100px;
@@ -451,6 +521,7 @@ html,body{
     height: 15vh;
     width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 .pres8-div3-rect{
     height: 100%;
@@ -463,6 +534,7 @@ html,body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-right: 10px;
 }
 .pres8-icon1{
     background-image: url("presentation8/icon1.png");
