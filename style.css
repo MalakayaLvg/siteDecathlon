@@ -3,7 +3,9 @@ html,body{
     padding: 0;
     overflow-x: hidden;
 }
-
+.green{
+    color: #77e851;
+}
 .navbar{
     height: 10vh;
     width: 100vw;
@@ -128,7 +130,7 @@ html,body{
 }
 .presentation1{
 
-    height: 60vh;
+    height: 65vh;
     width: 100%;
     background-image: url("imagesPresentation/img1.png");
     background-position: center;
@@ -173,5 +175,307 @@ html,body{
 
 
 .presentation3{
+    height: 45vh;
+    width: 100vw;
+    display: flex;
+}
 
+.pres3-img1,.pres3-img2,.pres3-img3,.pres3-img4,.pres3-img5,.pres3-img6,.pres3-img7,.pres3-img8,.pres3-img9,.pres3-img10,.pres3-img11,.pres3-img12{
+    height: 35vh;
+    width: 15vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.pres3-img1{
+    background-image: url("presentation3/img1.png");
+}
+.pres3-img2{
+    background-image: url("presentation3/img2.png");
+}
+.pres3-img3{
+    background-image: url("presentation3/img3.png");
+}
+.pres3-img4{
+    background-image: url("presentation3/img4.png");
+}
+.pres3-img5{
+    background-image: url("presentation3/img5.png");
+}
+.pres3-img6{
+    background-image: url("presentation3/img6.png");
+}
+.pres3-img7{
+    background-image: url("presentation3/img7.png");
+}
+.pres3-img8{
+    background-image: url("presentation3/img8.png");
+}
+.pres3-img9{
+    background-image: url("presentation3/img9.png");
+}
+.pres3-img10{
+    background-image: url("presentation3/img10.png");
+}
+.pres3-img11{
+    background-image: url("presentation3/img11.png");
+}
+.pres3-img12{
+    background-image: url("presentation3/img12.png");
+}
+
+.presentation4{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+}
+.pres4-div1,.pres4-div2{
+    height: 100%;
+    width: 50%;
+}
+.pres4-div2{
+    display: flex;
+    flex-direction: column;
+}
+.pres4-div2-col{
+    display: flex;
+}
+.pres4-img1{
+    height: 100%;
+    width: 100%;
+    background-image: url("presentation4/img1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.pres4-div-rect{
+    height: 50%;
+    width: 15vw;
+    background-color: #FFE928;
+    border: grey 1px solid;
+}
+.pres4-img2,.pres4-img3,.pres4-img4,.pres4-img5,.pres4-img6,.pres4-img7{
+    height: 20vh;
+    width: 10vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+.pres4-img2{
+    background-image: url("presentation4/img2.png");
+}
+.pres4-img3{
+    background-image: url("presentation4/img3.png");
+}
+.pres4-img4{
+    background-image: url("presentation4/img4.png");
+}
+.pres4-img5{
+    background-image: url("presentation4/img5.png");
+}
+.pres4-img6{
+    background-image: url("presentation4/img6.png");
+}
+.pres4-img7{
+    background-image: url("presentation4/img7.png");
+}
+.pres4-prix{
+    width: fit-content;
+    background-color: #FFE928;
+}
+
+.presentation5{
+    height: 45vh;
+    width: 100vw;
+    display: flex;
+}
+.pres5-img1,.pres5-img4{
+    height: 100%;
+    width: 45%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.pres5-img2,.pres5-img3,.pres5-img5,.pres5-img6{
+    height: 100%;
+    width: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.pres5-img1{
+    background-image: url("presentation5/img1.png");
+}
+.pres5-img2{
+    background-image: url("presentation5/img2.png");
+}
+.pres5-img3{
+    background-image: url("presentation5/img3.png");
+}
+.pres5-img4{
+    background-image: url("presentation5/img4.png");
+}
+.pres5-img5{
+    background-image: url("presentation5/img5.png");
+}
+.pres5-img6{
+    background-image: url("presentation5/img6.png");
+}
+
+.presentation6{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+}
+.pres6-img1,.pres6-img2,.pres6-img3,.pres6-img4,.pres6-img5{
+    height: 100%;
+    width: 18%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pres6-img1{
+    background-image: url("presentation6/img1.png");
+}
+.pres6-img2{
+    background-image: url("presentation6/img2.png");
+}
+.pres6-img3{
+    background-image: url("presentation6/img3.png");
+}
+.pres6-img4{
+    background-image: url("presentation6/img4.png");
+}
+.pres6-img5{
+    background-image: url("presentation6/img5.png");
+}
+
+.presentation7{
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+}
+.pres7-div{
+    height: 100%;
+    width: 45%;
+}
+.pres7-img1,.pres7-img2{
+    height: 65vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.pres7-img1{
+    background-image:url("presentation7/img1.png");
+}
+.pres7-img2{
+    background-image:url("presentation7/img2.png");
+}
+
+.presentation8{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+.pres8-div1{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+}
+.pres8-div1-rect1{
+    height: 100%;
+    width: 20vw;
+    background-color: rgba(182, 172, 172, 0.6);
+    display: flex;
+}
+.pres8-img1,.pres8-img2,.pres8-img3,.pres8-img4{
+    height: 90px;
+    width: 90px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.pres8-img1{
+    background-image: url("presentation8/img1.png");
+}
+.pres8-img2{
+    background-image: url("presentation8/img2.png");
+}
+.pres8-img3{
+    background-image: url("presentation8/img3.png");
+}
+.pres8-img4{
+    background-image: url("presentation8/img4.png");
+}
+.pres8-flex{
+    display: flex;
+    flex-direction: column;
+}
+.rappels{
+    height: 7vh;
+    width: 15vw;
+    background-color: #007DCA;
+}
+.pres8-div2{
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+}
+.pres8-div2-rect{
+    height: 100%;
+    width: 40vw;
+    background-color: rgba(182, 172, 172, 0.6);
+    display: flex;
+}
+.pres8-img5{
+    height: 100px;
+    width: 140px;
+    background-image: url("presentation8/img5.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.pres8-img6{
+    height: 100px;
+    width: 140px;
+    background-image: url("presentation8/img6.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pres8-div3{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+}
+.pres8-div3-rect{
+    height: 100%;
+    width: 15vw;
+    display: flex;
+}
+.pres8-icon1,.pres8-icon2,.pres8-icon3,.pres8-icon4,.pres8-icon5{
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.pres8-icon1{
+    background-image: url("presentation8/icon1.png");
+}
+.pres8-icon2{
+    background-image: url("presentation8/icon2.png");
+}
+.pres8-icon3{
+    background-image: url("presentation8/icon3.png");
+}
+.pres8-icon4{
+    background-image: url("presentation8/icon4.png");
+}
+.pres8-icon5{
+    background-image: url("presentation8/icon5.png");
 }
