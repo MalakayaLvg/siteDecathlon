@@ -53,8 +53,8 @@ html,body{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-
  }
+
  .iconeMonpanier{
      height: 50px;
      width: 50px;
@@ -127,6 +127,19 @@ html,body{
 }
 .textbleu{
     color: #007DCA;
+    transition: 0.2s;
+    text-decoration: none;
+}
+.textbleu:hover{
+    color: black;
+}
+.lienBlanc{
+    color: black;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.lienBlanc:hover{
+    color: skyblue;
 }
 
 .iconChoixBleu{
@@ -484,6 +497,10 @@ html,body{
     justify-content: center;
     border: none;
     border-radius: 5px;
+    transition: 0.2s;
+}
+.rappels:hover{
+    background-color: #002fca;
 }
 .pres8-div2{
     height: 25vh;
@@ -553,7 +570,7 @@ html,body{
 }
 
 .presentation9{
-    height: 150vh;
+    height: 160vh;
     background-color: #F7F8F9;
 }
 .m-presentation9{
@@ -652,4 +669,9 @@ html,body{
     background-image: url("presentation9/img3.png");
     background-size: cover;
     background-position: center;
+}
+.lienCC{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px 2px 0;
 }
