@@ -144,7 +144,7 @@ html,body{
 }
 
 .divFinSection{
-    width: 100vw;
+    width: 100%;
     border: rgba(178, 170, 170, 0.41) 1px solid;
 }
 
@@ -550,4 +550,106 @@ html,body{
 }
 .pres8-icon5{
     background-image: url("presentation8/icon5.png");
+}
+
+.presentation9{
+    height: 150vh;
+    background-color: #F7F8F9;
+}
+.m-presentation9{
+    margin: 50px 80px 0 80px;
+}
+.pres9-div1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.pres9-div1-col1{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.titreCat{
+    font-size: medium;
+    font-weight: bold;
+}
+.pres9-div1-col1-r1{
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.pres9-img1{
+    height: 49px;
+    width: 49px;
+    background-image: url("presentation9/img1.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+.lien,.lienFin,.lienHeader,.lienTelecharger{
+    text-decoration: none;
+    color: black;
+    font-family: Roboto Condensed,Arial Narrow,sans-serif;
+}
+.lienTelecharger{
+    color: #007DCA;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.lien{
+    font-size: medium;
+}
+.lienFin{
+    font-size: medium;
+    margin: 10px 0 10px 0;
+}
+.lienHeader{
+    font-weight: bold;
+}
+.pres9-img2{
+    height: 30px;
+    width: 100%;
+    background-image: url("presentation9/img2.png");
+    background-size: cover;
+}
+.divLangue{
+    height:7vh;
+    display: flex;
+}
+.formLangue{
+    height: 100%;
+    width: 80%;
+    border-radius: 5px;
+}
+.pres9-div1-col2,.pres9-div1-col3,.pres9-div1-col4,.pres9-div1-col5{
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.pres9-div2{
+    margin: 50px 0 50px 0;
+}
+.copiright{
+    font-weight: bold;
+}
+.apresCC{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+.pres9-div4{
+    display: flex;
+    justify-content: center;
+}
+.pres9-img3{
+    height: 400px;
+    width: 600px;
+    background-image: url("presentation9/img3.png");
+    background-size: cover;
+    background-position: center;
 }
